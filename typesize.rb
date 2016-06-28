@@ -3,27 +3,6 @@ cheatsheet do
   docset_file_name 'typesize'    # Used for the filename of the docset
   keyword 'Type Size'             # Used as the initial search keyword (listed in Preferences > Docsets)
 
-  style '  
-  td.td_notes code {
-    border: none;
-    box-shadow: none;
-    background: none;
-    font-family: "Open Sans", sans-serif;
-    font-size: medium;
-    color: #666666;
-  }
-  td, th {
-    white-space:nowrap;
-    min-width:110px;
-  }
-  .no-min-width td, .no-min-width th {
-    min-width:0;
-  }
-  td:last-child {
-    width:99%;
-  }
- '
-
   category do
     id 'Integer'
     header 'Type'
